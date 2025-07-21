@@ -9,4 +9,8 @@ router.post('/', async (req, res) => {
     res.send("POST called");  
 });
 
+router.delete('/', async (req, res) => {
+    res.send("DELETE called");  
+}); 
+
 export default router;
